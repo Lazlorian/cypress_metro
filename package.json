@@ -1,0 +1,22 @@
+{
+  "name": "cypress_metro",
+  "version": "1.0.0",
+  "description": "Cypress demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lazlorian/cypress_metro.git"
+  },
+  "author": "Orban Zsolt",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Lazlorian/cypress_metro/issues"
+  },
+  "homepage": "https://github.com/Lazlorian/cypress_metro#readme",
+  "devDependencies": {
+    "cypress": "^9.7.0"
+  }
+}
