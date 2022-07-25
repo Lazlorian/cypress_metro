@@ -46,6 +46,7 @@ describe('Shopping cart test for eCommerce website', () => {
 
     // remove successfully the remaining one and assert that the result is correct
     shoppingCart.getRemoveProductButton().click();
+    shoppingCart.getShoppingCartContainer().should('not.exist');
 
     cy.reload();
     navbar.getShoppingCartItemCount()
@@ -53,6 +54,5 @@ describe('Shopping cart test for eCommerce website', () => {
       .and('be.empty');
 
     // try to remove again one of the products expecting a failed test in this case - nothing to check here
-    shoppingCart.getShoppingCartContainer().should('not.exist');
   });
 });
