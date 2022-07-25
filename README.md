@@ -7,8 +7,7 @@
 3. Run 'npm run test' to start the test runner
 
 # CLI commands / Headless mode
-1. Run 'npx cypress run --headless --browser chrome' to run all spec files in headless Chrome
+Run 'npx cypress run --headless --browser chrome' to run all spec files in headless Chrome
 
 # Report
-
-# Headless mode
+Running in headless mode will generate a report folder using the built-in junit reporter
